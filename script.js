@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded',function (){
+    function fetchData(){
     fetch('https://206.189.146.138/api/sensors')
     .then(response => response.json())
     .then(data => {
@@ -17,6 +18,8 @@ document.addEventListener('DOMContentLoaded',function (){
         document.querySelector("#lux").innerHTML = `lux : ${lux}`;
         document.querySelector("#motion").innerHTML =  `motion : ${motion}`;
     });
+    }
+    setInterval(fetchData, 1000);
 });
 
 document.addEventListener('DOMContentLoaded', function() {
