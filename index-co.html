@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <title>Melk Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"> K. <span>Piengtarn</span></a>
+        <nav class="navbar">
+            <div class="dropdown">
+                <a><i class='bx bx-menu' id="menu-icon"></i></a>
+                <div class="dropdown-content">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About <span>Me</span></a>
+                    <a href="#experience">Experience</a>
+                    <a href="#get">GET<span> Method</span></a>
+                    <a href="#footer" class="active">Put<span> Method</span></a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="candid.jpg" alt="candid not found">
+        </div>
+
+        <div class="home-content">
+            <h1>It's <span>Melchaorai</span></h1>
+            <h3 class="text-animation">
+                I'm an <span></span></h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/piengtarnk/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/ruangkhonggu_/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/melchaorai"><i class='bx bxl-github'></i></a>
+                <a href="mailto:s6501075510249@email.kmutnb.ac.th"><i class='bx bx-envelope'></i></a>
+                <a href="https://guthib.com/"><i class='bx bx-hide'></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span> Me </span></h2>
+        <h3 class="text-animation">
+            <span></span>
+        </h3>
+        <p>My favourite name is what they called me</p>
+        <p>It is what I named myself</p>
+        <a href="Resume.pdf" class="btn">Read More</a>
+        </div>
+        
+        <div class="about-img">
+            <img src="smile.jpg" alt="smile not found">
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Experience</h2>
+        <div class="experience-container">
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <h4> Work </h4>
+                <p>Electronics Technician</p>
+                <p>Work details</p>
+                    <li>Measuring electrical parameters of 3 phase motor-starter.</li>
+                    <li>Inspecting stainless steel belt product.</li>
+                    <li>Conduct monthly maintenance report.</li>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <h4> Work </h4>
+                    <p>Teacher Assistance</p>
+                    <p>Work details</p>
+                    <li>Use a variety of instructional techniques to engage students.</li>
+                    <li>Incorporate play-based, interactive activities to make learning effective for young children.</li>
+                    <li>Perform administrative functions as assigned</li>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <h4>Internship</h4>
+                    <p>Instrument Technician (QMI)</p>
+                    <p>Work details</p>
+                    <li>Preventive maintenance Quality Measuring Instrument</li>
+                    <li>Collect sample of product for laboratory</li>
+                    <li>Provide assigned-topic monthly presentation</li>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <h4>Internship</h4>
+                    <p>Instrument Engineer</p>
+                    <p>Work details</p>
+                    <li>Distributed Control System (CentumVP) control and designed</li>
+                    <li>Provide Field Instrument Specification Document</li>
+                    <li>Fire Alarm Systems observation</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get" id="get">
+        <h2 class="heading">Get Method</h2>
+        <div class="get-container">
+
+            <div class="get-box">
+                <div class="get-info">
+                    <h4 href=""><i class='bx bx-timer'></i>
+                    <div id="time"></div></h4>
+                </div>
+            </div>
+
+            <div class="get-box">
+                <div class="get-info">
+                    <h4 href=""><i class='bx bxs-thermometer'></i></i>
+                    <div id="temp"></div></h4>
+                </div>
+            </div>
+
+            <div class="get-box">
+                <div class="get-info">
+                    <h4 href="">
+                        <i class='bx bx-shower'></i>
+                        <div id="humid"></div>
+                    </h4>
+                </div>
+            </div>
+
+            <div class="get-box">
+                <div class="get-info">
+                    <h4 href="">
+                        <i class='bx bx-bulb' ></i>
+                        <div id="lux"></div>
+                    </h4>
+                </div>
+            </div>
+
+            <div class="get-box">
+                <div class="get-info">
+                    <h4 href="">
+                        <i class='bx bx-ghost' ></i>
+                        <div id="motion"></div>
+                    </h4>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+
+        <h1>Put Method</h1>
+        <p>"Put your name and student id to flex everyone"</p>
+        <form>
+            <input autofocus id="name" placeholder="Full Name" type="text">
+            <input autofocus id="id" placeholder="Student id" type="text">
+            <input type="submit" value="Submit">
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>         
