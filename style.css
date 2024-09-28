@@ -431,6 +431,10 @@
         color:var(--text-color);
         transform: scale(1.03);
     }
+    
+    .get-chart-container{
+        background: var(--main-color) ;
+    }
 
     .get-info {
         display: flex;
